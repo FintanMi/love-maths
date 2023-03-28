@@ -177,9 +177,21 @@ body {
 
 /* --------- Media queries */
 
-@media (max-width: 414px) {
+@media (max-width: 912px) {
     .controls-area {
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* 414 */
+
+@media (max-width: 540px) {
+    .controls-area {
+        width: 100%;
+        justify-content: space-evenly;
     }
 
     .btn--big {
